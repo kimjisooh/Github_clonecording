@@ -1,0 +1,48 @@
+/* COMMON */
+.summary__title {
+  font-size: 34px !important; /* 우선 순위 먼저 지정 */
+}
+.summary__description {
+  font-size: 22px;
+}
+
+
+/* FEATURE */
+.section--feature .tiles li {
+  width: 100%;
+  border-right: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* WHERE IS */
+#map {
+  width: auto; /* 100%는 부모요소를 따라가기 때문에 완전히 초기값인 auto를 지정하는 것 */
+  margin: 40px -20px 0 -20px;
+  border-left: none;
+  border-right: none;
+}
+
+
+/* FRICING */
+.section--pricing .card {
+  display: block;
+}
+.section--pricing .card .cell2 {
+  border-left: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+/* FOOTER */
+footer .site-links {
+  display: block;
+  float: none;
+  text-align: center;
+}
+footer .site-links:first-child {
+  margin-bottom: 20px;
+}
+footer .site-links li {
+  display: inline;
+}
